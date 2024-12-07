@@ -6,4 +6,17 @@ function signUp(userName){
 }
    
    signUp("Priyanshi")
-   signUp("Alice")
+   signUp("Teja")
+
+   function login(userName, password){
+    let existingUsers=["Priyanshi","Alice","Bob","Joseph"];
+     let passwordis = "Emp@123"
+
+     if(existingUsers!= userName){
+        console.log("User not found")
+     }else if( passwordis!=password){
+        console.log("Wrong Password")
+     } else{ console.log("Login Successful")}
+   }
+
+   login("Priyanshi, Emp@123")
